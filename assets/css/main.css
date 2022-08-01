@@ -187,3 +187,14 @@
     font-size: 18px;
   }
   
+  .song .active{
+    background-color: var(--primary-color);
+
+  }
+  .song .active .title, .song .active .author , .song .active .option  {
+    color: #fff;
+  }
+  .song:active{
+    opacity: 0.8;
+  }
+  
